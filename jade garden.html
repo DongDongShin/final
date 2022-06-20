@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>웹프로그래밍 프로젝트</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jquery.lightbox.css">
+<script src="https://code.jquery.com/jquery-1.2.3.js"> </script>
+<script src="js/jquery.lightbox.js"> </script>
+<script>
+
+  $(document).ready(function () {
+    $('a.lightb').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light2b').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light3b').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light4b').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light5b').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light6b').lightBox();
+  });
+
+  $(document).ready(function () {
+    $('a.light7b').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light8b').lightBox();
+  });
+
+</script>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="logo1">
+        <a href="http://cityhall.chuncheon.go.kr/index.chuncheon" target="_blank" title="춘천시청 바로가기">
+          <img src="media/춘천시.jpg" alt="춘천시 바로가기">
+        </a>
+      </div>
+      <div id="logo2">
+        <a href="https://www.kangwon.ac.kr/www/index.do" target="_blank" title="강원대학교 바로가기">
+          <img src="media/곰두리.png" alt="강원대학교 바로가기">
+        </a>
+      </div>
+      <div id="center">
+        <h1>춘천여행 길라잡이</h1>
+      </div>
+      <nav>
+        <a href="https://blog.naver.com/chuncheon_go" target="_blank" title="춘천시 블로그 바로가기">
+          <img src="media/네이버.png" alt="춘천시 공식 블로그">
+        </a>
+        <a href="https://www.youtube.com/c/chuncheonsi" target="_blank" title="춘천시 유튜브 바로가기">
+          <img src="media/유투브.png" alt="춘천시 공식 유투브 채널">
+        </a>
+        <a href="https://ko-kr.facebook.com/chuncheon.e" title="춘천시 공식 페이스북 바로가기" target="_blank">
+          <img src="media/페이스북.png" alt="춘천시 공식 페이스북">
+        </a>
+        <a href="https://www.instagram.com/chuncheon_go/?hl=ko" title="춘천시 인스타그램 바로가기" target="_blank">
+          <img class="instagram" src="media/춘인스.png" alt="춘천시 인스타그램">
+        </a>
+      </nav>
+      <div id="topMenu">
+        <ul>
+          <li><a class="menuLink"  href="gubongsan.html">구봉산</a></li>
+          <li><a class="menuLink"  href="namisum.html">남이섬</a></li>
+          <li><a class="menuLink"  href="soyanggan skywalk.html">소양강 스카이워크</a></li>
+          <li><a class="menuLink" href="jade garden.html">제이드가든</a></li>
+          <li><a class="menuLink"  href="deungsun waterfall.html">등선폭포</a></li>
+        </ul>
+      </div>
+    </header>
+    <article>
+      <div id="title-1">
+        <h2>⛺제이드가든</h2>
+      </div>
+      <br>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="media4/제이드가든 수목원1.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="media4/제이드가든 수목원2.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="media4/제이드가든 수목원3.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="media4/제이드가든 수목원4.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="media4/제이드가든 수목원5.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="media4/제이드가든 수목원6.jpg" style="width:100%">
+          <div class="text">•Jade Garden•</div>
+        </div>
+        <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlides(1)">&#10095;</a>
+      </div>
+    </article>
+    <br />
+    <div id="title">
+      <h1>제이드가든</h1>
+      <p>숲 속의 작은 유럽</p>
+    </div>
+    <article>
+      <div id="contents">
+        <h2>•소개</h2>
+        <p>‘숲 속에서 만나는 작은 유럽’을 모토로 한 제이드 가든은 제이드팰리스 골프장 부근 약 16만㎡ 규모로 24개의 테마로 조성됐다.
+          제이드 가든은 자연의 계곡 지형을 그대로 살려 화훼나 수목, 건축 양식과 건물 배치 등을 유럽풍에 맞추었다.
+          약 5만평의 규모로 계곡 사이의 지형을 따라 길게 이어지며, 만병초류와 단풍나무류 붓꽃류 블루베리 등 3,000종의 식물을 보유하고 있다.
+          또한 드라이가든과 웨딩가든 이끼원, 로도덴드론가든 등 모두 24개의 분원으로 나뉘어져 있다.
+        </p>
+        <table>
+          <tr>
+            <td>‣ 휴무일</td>
+            <td>연중개방</td>
+          </tr>
+          <tr>
+            <td>‣ 이용시간</td>
+            <td>09:00 ~ 18:30(입장마감 17:00)</td>
+          </tr>
+          <tr>
+            <td>‣ 입장료</td>
+            <td>개인 어른 9,500원 / 중고생 7,000원 / 어린이 6,000원 / 경로/장애인/국가유공자/지역민7,000원
+              단체 어른 8,000원 / 중고생 5,500원 / 어린이 4,500원 경로/장애인/국가유공자/지역민5,500원</td>
+          </tr>
+          <tr>
+            <td>‣ 시설사용 요금</td>
+            <td>없음</td>
+          </tr>
+          <tr>
+            <td>‣ 주차시설</td>
+            <td>주차 가능</td>
+          </tr>
+          <tr>
+            <td>‣ 주차요금</td>
+            <td>무료주차</td>
+          </tr>
+          <tr>
+            <td>‣ 장애인 편의시설</td>
+            <td>휠체어 무료대여</td>
+          </tr>
+          <tr>
+            <td>‣ 관광가이드</td>
+            <td> 제이드가든은 강렬한 원색보다는 수수하고 은은한 멋을 뽐내는 화훼류 위주로 채워졌으며, 계곡의 우거진 산림 그대로의 멋을 살린 것이 특징이라 할 수 있다.
+              제이드 가든에서는 아름다운 분원들뿐만 아니라 다양한 프로그램과 체험활동을 계획하고 있다.
+              식물에 관심이 많은 예비 가드너들을 위한 가드너 양성 프로그램과 학생들을 위한 다양한 프로그램도 계획하고 있다.
+              수목원을 둘러보다 보면 경사가 가파른 곳이 제법 있다.
+              따라서, 구두보다는 편한 신발을 신고 제이드가든을 방문하는 것이 좋겠다.
+            </td>
+          </tr>
+          <tr>
+            <td>‣ 핵심 내용</td>
+            <td>숲속의 작은 유럽을 표방한 수목원</td>
+          </tr>
+          <tr>
+            <td>‣ 홈페이지</td>
+            <td><a href="http://tour.chuncheon.go.kr" target="_blank"
+                title="춘천관광포털 바로가기">http://tour.chuncheon.go.kr</a>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <h2>• 위치정보</h2>
+        <br>
+        <div id="map">
+          <div id="daumRoughmapContainer1654443074000" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+          <script charset="UTF-8" class="daum_roughmap_loader_script"
+            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+          <script charset="UTF-8">
+            new daum.roughmap.Lander({
+              "timestamp": "1654443074000",
+              "key": "2ahrz",
+              "mapWidth": "1800",
+              "mapHeight": "800"
+            }).render();
+          </script>
+        </div>
+        <div id="contents-2">
+          <h3>• 주변 가볼 장소</h3>
+          <div class="foods">
+            <h3>☕카페</h3>
+          </div>
+          <div class="cafe-left">
+            <h3>‣인더가든</h3>
+            <img src="media4/인더가든.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/v-e5T6l3f" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 햇골길 80</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">홈페이지</td>
+
+                  <td class="tg-c6of" colspan="2">-</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">09:00 ~ 18:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-260-8312</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="lightb" href="media4/인더가든1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="lightb" href="media4/인더가든2.jpg"></a>
+                    <a class="lightb" href="media4/인더가든3.jpg"></a>
+                    <a class="lightb" href="media4/인더가든4.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣햇골길34</h3>
+
+            <img src="media4/햇골길34.jpg" alt="">
+
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/aCbMIh4sa" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 햇골길 34</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">홈페이지</td>
+
+                  <td class="tg-c6of" colspan="2"><a
+                      href="https://haetgolgil.modoo.at/" target="_blank">https://haetgolgil.modoo.at/</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">11:00 ~ 18:30(매주 화요일 휴무)</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">0507-1401-3090</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light2b" href="media4/햇골길34 1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light2b" href="media4/햇골길34 2.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 3.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 4.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 5.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 6.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 7.jpg"></a>
+                    <a class="light2b" href="media4/햇골길34 8.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>🍚식사</h3>
+          <hr>
+          <div class="cafe-left">
+            <h3>‣정호닭갈비</h3>
+            <img src="media4/정호닭갈비.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">
+                    주소
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/cLImvFpW5" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 서백길 140</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of">닭갈비 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">10:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-2823</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light3b" href="media4/정호닭갈비1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light3b" href="media4/정호닭갈비2.jpg"></a>
+                    <a class="light3b" href="media4/정호닭갈비3.jpg"></a>
+                    <a class="light3b" href="media4/정호닭갈비4.jpg"></a>
+                    <a class="light3b" href="media4/정호닭갈비5.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣경강 막국수</h3>
+            <img src="media4/경강막국수.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/zA23OxsM9" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 서백길 62-4</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">막국수 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">10:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-1138</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light4b" href="media4/경강막국수1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light4b" href="media4/경강막국수2.jpg"></a>
+                    <a class="light4b" href="media4/경강막국수3.jpg"></a>
+                    <a class="light4b" href="media4/경강막국수4.jpg"></a>
+                    <a class="light4b" href="media4/경강막국수5.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-left">
+            <h3>‣경강오리구이</h3>
+
+            <img src="media4/경강오리구이.jpg" alt="">
+
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">
+                    주소
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/KR1TaicTu" target="_blank" title="카카오맵 열기">강원 춘천시 남산면 서백길 65</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">오리 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">06:30 ~ 21:00(매달 둘째 주 월요일 휴무)</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-1935</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light5b" href="media4/경강오리구이1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light5b" href="media4/경강오리구이2.jpg"></a>
+                    <a class="light5b" href="media4/경강오리구이3.jpg"></a>
+                    <a class="light5b" href="media4/경강오리구이4.jpg"></a>
+                    <a class="light5b" href="media4/경강오리구이5.jpg"></a>
+                    <a class="light5b" href="media4/경강오리구이6.jpg"></a>
+                    <a class="light5b" href="media4/경강오리구이7.jpg"></a>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣호원가든</h3>
+            <img src="media4/호원가든.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/w-SsCVNmG" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 북한강변길 346</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">숯불구이 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">평일 11:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-9235</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light6b" href="media4/호원가든1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light6b" href="media4/호원가든2.jpg"></a>
+                    <a class="light6b" href="media4/호원가든3.jpg"></a>
+                    <a class="light6b" href="media4/호원가든4.jpg"></a>
+                    <a class="light6b" href="media4/호원가든5.jpg"></a>
+                    <a class="light6b" href="media4/호원가든6.jpg"></a>
+                    <a class="light6b" href="media4/호원가든7.jpg"></a>
+                    <a class="light6b" href="media4/호원가든8.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-left">
+            <h3>‣오리날다</h3>
+            <img src="media4/오리날다.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/d09zvgeFT" target="_blank" title="카카오맵 열기">강원도 춘천시 서면 율장길 17</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">오리 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">평일 10:00 ~ 21:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-5226</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light7b" href="media4/오리날다1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light7b" href="media4/오리날다2.jpg"></a>
+                    <a class="light7b" href="media4/오리날다3.jpg"></a>
+                    <a class="light7b" href="media4/오리날다4.jpg"></a>
+                    <a class="light7b" href="media4/오리날다5.jpg"></a>
+                    <a class="light7b" href="media4/오리날다6.jpg"></a>
+                    <a class="light7b" href="media4/오리날다7.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣예송두부마을</h3>
+            <img src="media4/예송두부마을.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/hCj3XASop" target="_blank" title="카카오맵 열기">강원 춘천시 남산면 서천길 13</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">두부 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">하절기 : 06:30 ~ 20:30<br>동절기 : 07:30 ~ 19:30</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">033-263-8840</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light8b" href="media4/예송두부마을1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light8b" href="media4/예송두부마을2.jpg"></a>
+                    <a class="light8b" href="media4/예송두부마을3.jpg"></a>
+                    <a class="light8b" href="media4/예송두부마을4.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+        </div>
+      </div>
+
+    </article>
+    <footer>
+      <div id="footer1">
+        <a href="https://www.kangwon.ac.kr/www/index.do" title="강원대학교 바로가기">
+          <img src="media/knu 흑백.PNG" alt="강원대학교 바로가기" class="knu">
+        </a>
+      </div>
+      <div id="footer2">
+        <p>Made by.</p>
+        <p>SHIN-DONG-HA</p>
+        <p>PARK-SEONG-JIN</p>
+        <p>HONG-YOO-JEONG</p>
+        <p>@Web-Programming Project.</p>
+      </div>
+      <div id="footer3">
+        <a href="https://blog.naver.com/chuncheon_go" target="_blank" title="춘천시 블로그 바로가기">
+          <img src="media/네이버 흑백.png" class="default" alt="춘천시 공식 블로그" onmouseover="this.src='media/네이버.png'"
+            onmouseout="this.src='media/네이버 흑백.png'">
+        </a>
+        <a href="https://www.youtube.com/c/chuncheonsi" target="_blank" title="춘천시 유튜브 바로가기">
+          <img src="media/유투브 흑백.png" class="default" alt="춘천시 공식 유투브 채널" onmouseover="this.src='media/유투브.png'"
+            onmouseout="this.src='media/유투브 흑백.png'">
+        </a>
+        <a href="http://tour.chuncheon.go.kr/contents.do?cid=8b55e364a79c42efbb7c3aec5dfad363&categoryId=1"
+          title="춘천시 공식 페이스북 바로가기">
+          <img src="media/페이스북 흑백.png" class="default" alt="춘천시 공식 페이스북" onmouseover="this.src='media/페이스북.png'"
+            onmouseout="this.src='media/페이스북 흑백.png'">
+        </a>
+        <a href="https://www.instagram.com/chuncheon_go/?hl=ko" title="춘천시 인스타그램 바로가기" target="_blank">
+          <img src="media/춘인스 흑백.png" class="instagram" alt="춘천시 공식 인스타그램" onmouseover="this.src='media/춘인스.png'"
+            onmouseout="this.src='media/춘인스 흑백.png'">
+        </a>
+      </div>
+      <div id="footer4">
+        <a href="#" class="scrollToTop" title="페이지 맨 위로 이동">▲TOP</a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/slideshow.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>

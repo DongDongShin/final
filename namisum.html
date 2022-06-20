@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>웹프로그래밍 프로젝트</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jquery.lightbox.css">
+<script src="https://code.jquery.com/jquery-1.2.3.js"> </script>
+<script src="js/jquery.lightbox.js"> </script>
+<script>
+  // 이벤트를 연결합니다.
+  $(document).ready(function () {
+    $('a.lightc').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light2c').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light3c').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light4c').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light5c').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light6c').lightBox();
+  });
+
+  $(document).ready(function () {
+    $('a.light7c').lightBox();
+  });
+  $(document).ready(function () {
+    $('a.light8c').lightBox();
+  });
+
+</script>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="logo1">
+        <a href="http://cityhall.chuncheon.go.kr/index.chuncheon" target="_blank" title="춘천시청 바로가기">
+          <img src="media/춘천시.jpg" alt="춘천시 바로가기">
+        </a>
+      </div>
+      <div id="logo2">
+        <a href="https://www.kangwon.ac.kr/www/index.do" target="_blank" title="강원대학교 바로가기">
+          <img src="media/곰두리.png" alt="강원대학교 바로가기">
+        </a>
+      </div>
+      <div id="center">
+        <h1>춘천여행 길라잡이</h1>
+      </div>
+      <nav>
+        <a href="https://blog.naver.com/chuncheon_go" target="_blank" title="춘천시 블로그 바로가기">
+          <img src="media/네이버.png" alt="춘천시 공식 블로그">
+        </a>
+        <a href="https://www.youtube.com/c/chuncheonsi" target="_blank" title="춘천시 유튜브 바로가기">
+          <img src="media/유투브.png" alt="춘천시 공식 유투브 채널">
+        </a>
+        <a href="https://ko-kr.facebook.com/chuncheon.e" title="춘천시 공식 페이스북 바로가기" target="_blank">
+          <img src="media/페이스북.png" alt="춘천시 공식 페이스북">
+        </a>
+        <a href="https://www.instagram.com/chuncheon_go/?hl=ko" title="춘천시 인스타그램 바로가기" target="_blank">
+          <img class="instagram" src="media/춘인스.png" alt="춘천시 인스타그램">
+        </a>
+      </nav>
+      <div id="topMenu">
+        <ul>
+          <li><a class="menuLink"  href="gubongsan.html">구봉산</a></li>
+          <li><a class="menuLink"  href="namisum.html">남이섬</a></li>
+          <li><a class="menuLink"  href="soyanggan skywalk.html">소양강 스카이워크</a></li>
+          <li><a class="menuLink" href="jade garden.html">제이드가든</a></li>
+          <li><a class="menuLink"  href="deungsun waterfall.html">등선폭포</a></li>
+        </ul>
+      </div>
+    </header>
+    <article>
+      <div id="title-1">
+        <h2>🏝남이섬</h2>
+      </div>
+      <br>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="media2/남이섬 1.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="media2/남이섬 2.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="media2/남이섬 3.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="media2/남이섬 4.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="media2/남이섬 5.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="media2/남이섬 6.jpg" style="width:100%">
+          <div class="text">•Namisum•</div>
+        </div>
+
+        <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlides(1)">&#10095;</a>
+      </div>
+    </article>
+    <br />
+    <div id="title">
+        <h1>남이섬</h1>
+        <p>한국관광 100선에 드는 춘천의 섬</p>
+    </div>
+    <article>
+      <div id="contents">
+      <h2>•소개</h2>
+      <p>동화나라 노래의 섬 남이섬은 원래는 구릉지로 만들어진 작은 봉우리였다고 한다. 지금은 문화예술 자연생태의 청정보고이다. 
+        사시사철 다양한 전시프로그램과 문화행사 등을 개최해 오고 있으며, 어린 친구들에게는 꿈과 희망을 심어주고, 연인들에게는 사랑과 아름다운 추억을 선사하는 장소이다. 
+        남이섬은 드라마 '겨울연가'의 섬으로 많이 알려져 있으며, 드라마가 몰고 온 한류 바람으로 국제적인 관광명소가 되었다. 
+        메타세콰이어길과 은행나무길을 비롯해 강변 산책로는 사진 촬영 명소이며, 바이크를 타고 섬을 돌아볼 수도 있고 짜릴한 짚와이어로 강을 가로지르는 체험을 할 수 있다.
+      </p>
+      <table>
+        <tr>
+          <td>‣ 휴무일</td>
+          <td>연중무휴</td>
+       </tr>
+        <tr>
+          <td>‣ 이용시간</td>
+          <td>매일 오전 8시 ~ 오후 9시</td>
+        </tr>
+        <tr>
+          <td>‣ 입장료</td>
+          <td>일반(성인) 16,000원, 우대(중・고등학생) 13,000원, 특별우대(36개월~초등) 10,000원, 짚와이어 49,900원</td>
+        </tr>
+        <tr>
+          <td>‣ 시설사용 요금</td>
+          <td>.</td>
+        </tr>
+        <tr>
+          <td>‣ 주차시설</td>
+          <td>주차 가능</td>
+        </tr>
+        <tr>
+          <td>‣ 주차요금</td>
+          <td>4,000원(12시간 초과 시 1시간당 1,000원 추가요금 발생)* 남이섬 호텔정관루 숙박고객 12시간 초과요금 면제</td>
+        </tr>
+        <tr>
+          <td>‣ 장애인 편의시설</td>
+          <td>휠체어 무료</td>
+        </tr>
+        <tr>
+          <td>‣ 관광가이드</td>
+          <td>	남이섬은 행정구역 상으로 강원도 춘천시 남산면 방하리에 속해있다. 
+            경기도 가평군에 위치한 선착장에서 섬으로 향하는 배를 타고 들어가야 한다. 
+            경치가 좋아 외국인도 많이 방문하는 관광지이다. 1년 기준 약 64만 명 정도의 외국인이 방문한다고 한다. 
+            방문객은 하루 평균 9,000명~1만 명 정도이고, 숲이 잘 조성되어 있으며 남이섬의 메타세쿼이아 길은 너무나도 유명하다.
+          </td>
+        </tr>
+        <tr>
+          <td>‣ 핵심 내용</td>
+          <td>세계 관광객의 발길이 끊이지 않는 상상공화국.</td>
+        </tr>
+        <tr>
+          <td>‣ 홈페이지</td>
+          <td><a href="http://www.namisum.com" target="_blank" title="남이섬 홈페이지 바로가기">http://www.namisum.com</a></td>
+        </tr>
+       </table>
+      <br>
+
+      <h2>• 위치정보</h2>
+      <br>
+      <div id="map">
+        <div id="daumRoughmapContainer1654058723326" class="root_daum_roughmap root_daum_roughmap_landing"></div>      
+        <script charset="UTF-8" class="daum_roughmap_loader_script" 
+        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+        <script charset="UTF-8">
+	        new daum.roughmap.Lander({
+            "timestamp" : "1654058723326",
+            "key" : "2agcc",
+            "mapWidth" : "1800",
+            "mapHeight" : "800"
+          }).render();
+        </script>
+      </div>
+      <div id="contents-2">
+        <h3>• 주변 가볼 장소</h3>
+        <div class="foods">
+          <h3>👟체험 활동</h3>
+        </div>
+        <div class="cafe-left">
+          <h3>‣스카이라인 짚와이어</h3>
+          <img src="media2/스카이라인 짚와이어.jpg" alt="">
+          <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-cjtp" colspan="2">
+                  주소
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c6of" colspan="2"><a href="http://kko.to/mxcowVVZI" target="_blank" title="카카오맵 열기">경기도 가평군 가평읍 북한강변로 1024</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">홈페이지</td>
+
+                <td class="tg-c6of"><a href="http://www.zipwire.co.kr/" target="_blank">http://www.zipwire.co.kr/</a></td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">영업 시간</td>
+                <td class="tg-c6of">09:00 ~ 18:00</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">전화번호</td>
+                <td class="tg-c6of">031-582-8091</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">사진</td>
+                <td class="tg-c6of">
+                  <a class="lightc" href="media2/짚와이어1.jpg" title="사진정보 더보기">[더보기]</a>
+                  <a class="lightc" href="media2/짚와이어2.jpg"></a>
+                  <a class="lightc" href="media2/짚와이어3.jpg"></a>
+                  <a class="lightc" href="media2/짚와이어4.jpg"></a>
+                  <a class="lightc" href="media2/짚와이어5.jpg"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cafe-right">
+          <h3>‣가평TOP랜드</h3>
+
+          <img src="media2/가평TOP랜드.jpg" alt="">
+
+          <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-cjtp" colspan="2">
+                  <bold>주소</bold>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c6of" colspan="2"><a href="http://kko.to/eCs546Csf" target="_blank" title="카카오맵 열기">경기도 가평군 가평읍 북한강변로 1044-15</a></td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">홈페이지</td>
+
+                <td class="tg-c6of" colspan="2"><a href="http://ktopland.com/" target="_blank">http://ktopland.com/</a></td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">영업 시간</td>
+                <td class="tg-c6of">09:00 ~ 18:00</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">전화번호</td>
+                <td class="tg-c6of">031-582-5372</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">사진</td>
+                <td class="tg-c6of">
+                  <a class="light2c" href="media2/TOP랜드 1.jpg" title="사진정보 더보기">[더보기]</a>
+                  <a class="light2c" href="media2/TOP랜드 2.jpg"></a>
+                  <a class="light2c" href="media2/TOP랜드 3.jpg"></a>
+                  <a class="light2c" href="media2/TOP랜드 4.jpg"></a>
+                  <a class="light2c" href="media2/TOP랜드 5.jpg"></a>
+                  <a class="light2c" href="media2/TOP랜드 6.jpg"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>☕카페</h3>
+        <hr>
+        <div class="cafe-left">
+          <h3>‣스윙카페</h3>
+
+          <img src="media2/스윙카페.jpg" alt="">
+
+          <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-cjtp" colspan="2">주소</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c6of" colspan="2"><a href="http://kko.to/tDri1XfEK" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 남이섬길 1</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">홈페이지</td>
+
+                <td class="tg-c6of" colspan="2"><a href="https://www.instagram.com/bakerycafeswing/" target="_blank">https://www.instagram.com/bakerycafeswing/</a></td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">영업 시간</td>
+                <td class="tg-c6of">주중 : 09:00 ~ 18:00<br>주말 : 09:00 ~ 19:00</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">전화번호</td>
+                <td class="tg-c6of">031-580-8020</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">사진</td>
+                <td class="tg-c6of">
+                  <a class="light3c" href="media2/스윙카페1.jpg" title="사진정보 더보기">[더보기]</a>
+                  <a class="light3c" href="media2/스윙카페2.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페3.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페4.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페5.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페6.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페7.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페8.jpg"></a>
+                  <a class="light3c" href="media2/스윙카페9.jpg"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cafe-right">
+          <h3>‣소나타까페</h3>
+
+          <img src="media2/소나타까페.jpg" alt="">
+
+          <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-cjtp" colspan="2">주소</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-c6of" colspan="2"><a href="http://kko.to/F68fpr9uT" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 남이섬길 1</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">홈페이지</td>
+
+                <td class="tg-c6of" colspan="2"><a href="https://www.instagram.com/sonatacafe_/" target="_blank">https://www.instagram.com/sonatacafe_/</a></td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">영업 시간</td>
+                <td class="tg-c6of">09:00 ~ 18:00</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">전화번호</td>
+                <td class="tg-c6of">031-580-8131</td>
+              </tr>
+              <tr>
+                <td class="tg-cjtp">사진</td>
+                <td class="tg-c6of">
+                  <a class="light4c" href="media2/소나타1.jpg" title="사진정보 더보기">[더보기]</a>
+                  <a class="light4c" href="media2/소나타2.jpg"></a>
+                  <a class="light4c" href="media2/소나타3.jpg"></a>
+                  <a class="light4c" href="media2/소나타4.jpg"></a>
+                  <a class="light4c" href="media2/소나타5.jpg"></a>
+                  <a class="light4c" href="media2/소나타6.jpg"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+          <h3>🍚식사</h3>
+          <hr>
+          <div class="cafe-left">
+            <h3>‣조무락닭갈비</h3>
+  
+            <img src="media2/조무락닭갈비.jpg" alt="">
+  
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">
+                    주소
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/bqkt2JiSG" target="_blank" title="카카오맵 열기">경기도 가평군 가평읍 달전리 91-2</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">닭갈비 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">평일 : 11:00 ~ 19:00<br>주말 : 10:30 ~ 19:30<br>매주 수요일 휴무</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">031-582-6300</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light5c" href="media2/조무락1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light5c" href="media2/조무락2.jpg"></a>
+                    <a class="light5c" href="media2/조무락3.jpg"></a>
+                    <a class="light5c" href="media2/조무락4.jpg"></a>
+                    <a class="light5c" href="media2/조무락5.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣한식당 남문</h3>
+            <img src="media2/한식당 남문.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/hi4E7Yx7z" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 남이섬길 1</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">한식 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">09:40 ~ 19:30</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">031-580-8055</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light6c" href="media2/남문1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light6c" href="media2/남문2.jpg"></a>
+                    <a class="light6c" href="media2/남문3.jpg"></a>
+                    <a class="light6c" href="media2/남문4.jpg"></a>
+                    <a class="light6c" href="media2/남문5.jpg"></a>
+                    <a class="light6c" href="media2/남문6.jpg"></a>
+                    <a class="light6c" href="media2/남문7.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-left">
+            <h3>‣섬향기</h3>
+  
+            <img src="media2/섬향기.jpg" alt="">
+  
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">
+                    주소
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/xVyTtXlee" target="_blank" title="카카오맵 열기">강원도 춘천시 남산면 남이섬길 1</a></td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">참나무 바베큐 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">10:30 ~ 19:30</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">031-581-2189</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light7c" href="media2/섬향기1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light7c" href="media2/섬향기2.jpg"></a>
+                    <a class="light7c" href="media2/섬향기3.jpg"></a>
+                    <a class="light7c" href="media2/섬향기4.jpg"></a>
+                    <a class="light7c" href="media2/섬향기5.jpg"></a>
+                    <a class="light7c" href="media2/섬향기6.jpg"></a>
+                    <a class="light7c" href="media2/섬향기7.jpg"></a>
+                    <a class="light7c" href="media2/섬향기8.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="cafe-right">
+            <h3>‣남이섬꼬꼬춘천닭갈비</h3>
+            <img src="media2/남이섬꼬꼬춘천닭갈비.jpg" alt="">
+            <table class="tg">
+              <thead>
+                <tr>
+                  <th class="tg-cjtp" colspan="2">주소</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tg-c6of" colspan="2"><a href="http://kko.to/Dy0K17HAL" target="_blank" title="카카오맵 열기">경기도 가평군 가평읍 북한강변로 1045</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">종류</td>
+
+                  <td class="tg-c6of" colspan="2">닭갈비 전문점</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">영업 시간</td>
+                  <td class="tg-c6of">평일 10:00 ~ 20:00<br>주말 09:30 ~ 21:00</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">전화번호</td>
+                  <td class="tg-c6of">031-581-2127</td>
+                </tr>
+                <tr>
+                  <td class="tg-cjtp">사진</td>
+                  <td class="tg-c6of">
+                    <a class="light8c" href="media2/꼬꼬1.jpg" title="사진정보 더보기">[더보기]</a>
+                    <a class="light8c" href="media2/꼬꼬2.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬3.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬4.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬5.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬6.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬7.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬8.jpg"></a>
+                    <a class="light8c" href="media2/꼬꼬9.jpg"></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+       
+      </div>
+    </div>
+
+    </article>
+    <footer>
+      <div id="footer1">
+        <a href="https://www.kangwon.ac.kr/www/index.do" title="강원대학교 바로가기">
+          <img src="media/knu 흑백.PNG" alt="강원대학교 바로가기" class="knu">
+        </a>
+      </div>
+      <div id="footer2">
+        <p>Made by.</p>
+        <p>SHIN-DONG-HA</p>
+        <p>PARK-SEONG-JIN</p>
+        <p>HONG-YOO-JEONG</p>
+        <p>@Web-Programming Project.</p>
+      </div>
+      <div id="footer3">
+        <a href="https://blog.naver.com/chuncheon_go" target="_blank" title="춘천시 블로그 바로가기">
+          <img src="media/네이버 흑백.png" class="default" alt="춘천시 공식 블로그" onmouseover="this.src='media/네이버.png'"
+            onmouseout="this.src='media/네이버 흑백.png'">
+        </a>
+        <a href="https://www.youtube.com/c/chuncheonsi" target="_blank" title="춘천시 유튜브 바로가기">
+          <img src="media/유투브 흑백.png" class="default" alt="춘천시 공식 유투브 채널" onmouseover="this.src='media/유투브.png'"
+            onmouseout="this.src='media/유투브 흑백.png'">
+        </a>
+        <a href="http://tour.chuncheon.go.kr/contents.do?cid=8b55e364a79c42efbb7c3aec5dfad363&categoryId=1"
+          title="춘천시 공식 페이스북 바로가기">
+          <img src="media/페이스북 흑백.png" class="default" alt="춘천시 공식 페이스북" onmouseover="this.src='media/페이스북.png'"
+            onmouseout="this.src='media/페이스북 흑백.png'">
+        </a>
+        <a href="https://www.instagram.com/chuncheon_go/?hl=ko" title="춘천시 인스타그램 바로가기" target="_blank">
+          <img src="media/춘인스 흑백.png" class="instagram" alt="춘천시 공식 인스타그램" onmouseover="this.src='media/춘인스.png'"
+            onmouseout="this.src='media/춘인스 흑백.png'">
+        </a>
+      </div>
+      <div id="footer4">
+        <a href="#" class="scrollToTop" title="페이지 맨 위로 이동">▲TOP</a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/slideshow.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>

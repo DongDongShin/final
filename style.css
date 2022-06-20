@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    margin: 0 auto;
+    width: 1800px;
+}
+header {
+    width: 100%;
+    height: 100px;
+}
+article{
+    float: left;
+    width: 1800px;
+}
+
+#logo1 {
+    float: left;
+    width: 200px;
+    z-index: -1;
+    height: 56px;
+}
+
+#logo1 img {
+    float: left;
+    width: 200px;
+    height: 95px;
+    margin-left: 10px;
+}
+
+#logo2 {
+    z-index: -1;
+    float: left;
+    width: 300px;
+
+    height: 100px;
+
+}
+#logo2 img {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 80px;
+    margin-top: 8px;
+}
+#center {
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    float: left;
+
+}
+
+#center h1 {
+    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+nav {
+    float: right;
+    width: 500px;
+    height: 100px;
+    position: relative;
+
+}
+nav img {
+    margin-top: 13px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 40px;
+}
+.default {
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-left: 40px;
+}
+.instagram{
+    margin-top: 4.5px;
+    width: 88px;
+    height: 88px;
+    float: left;
+    margin-left: 33px;
+}
+#topMenu {
+    height: 50px;
+    width: 1800px;
+    float: left;
+}
+
+#topMenu ul li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#topMenu .menuLink {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 360px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: #4d4d4d;
+}
+
+#title {
+    text-align: center;
+    width: 1800px;
+    height: 100px;
+    float: left;
+    border-bottom: 2px solid rgba(7, 7, 7, 0.3);
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 15px;
+    color: rgba(7, 7, 7, 0.3);
+
+}
+
+#title>p {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+
+}
+
+#title h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+
+}
+
+#title-1 {
+
+    width: 1700px;
+    height: 50x;
+    float: left;
+}
+#title2 {
+
+    width: 1700px;
+    height: 50x;
+    float: left;
+}
+
+#title-1 h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+
+.title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+
+}
+
+#map{
+    width: 1800px;
+    position: relative;
+    height: 800px;
+    margin-top: 30px;
+}
+
+.slideshow-container {
+    margin-top: 10px;
+    max-width: 1800px;
+    
+    max-height: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slideshow-container .mySlides img {
+    height: 800px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#contents{
+
+    width: 1800px;
+    height: 700px;
+    float: auto;
+}
+#contents h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 10px;
+}
+ 
+#contents p {
+    margin-top: 15px;
+    font-style: normal;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#map{
+    width: 1800px;
+    height: 830px;
+    float: left;
+    
+}
+table {
+    margin-top: 30px;
+    width: 1800px;
+    float: left;
+}
+
+table,
+td,
+th {
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+}
+
+td:nth-child(1) {
+    width: 300px;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 10px 20px;
+
+}
+
+td:nth-child(2) {
+    font-size: 15px;
+    width: 1100px;
+    padding: 10px 20px;
+}
+
+
+#contents-2 {
+    margin-top: 25px;
+    width: 100%;
+    height: 1850px;
+    float: left;
+    border-bottom: 1px solid rgba(204, 196, 196, 0.829);
+
+}
+
+#contents-2 h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.cafe-left {
+    width: 875px;
+    float: left;
+    height: 400px;
+}
+
+.foods {
+    width: 1800px;
+    height: 50px;
+    position: relative;
+    border-bottom: 2px solid rgba(7, 7, 7, 0.3);
+    margin-top: 10px;
+}
+
+#contents-2 img {
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.cafe-right {
+    width: 875px;
+    float: left;
+    margin-left: 50px;
+
+    height: 400px;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 450px;
+    float: right;
+    margin-top: 13px;
+
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    padding: 10px 5px;
+
+    word-break: normal;
+
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-cjtp {
+    background-color: rgba(177, 177, 177, 0.856);
+    border-color: inherit;
+    text-align: center;
+
+    vertical-align: top;
+    width: 100px;
+    height: 40px;
+}
+
+.tg .tg-c6of {
+    background-color: #ffffff;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top;
+    width: 350px;
+    height: 40px;
+}
+footer {
+    width: 1800px;
+    height: 150px;
+    float: left;
+    padding: 29px 0;
+    
+    color: #b1b1b1;
+    background-color: white;
+}
+#footer1 {
+    width: 300px;
+    float: left;
+    float: left;
+    height: 100px;
+}
+.knu{
+    width:300px;
+    height: 100px;
+}
+#footer2 {
+    width:750px;
+    float: left;
+    height: 100px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #b1b1b1;
+}
+#footer3 {
+    float: right;
+    width: 500px;
+    height: 100px;
+    position: relative;
+}
+#footer4 {
+    float: left;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+
+    background-color: #2d2d2d;
+}
+.scrollToTop {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.849);
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+td>a {
+    color: #000;
+    text-decoration: underline;
+}
